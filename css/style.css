@@ -89,3 +89,33 @@ hr{
     background-color: white;
     padding: 10px;
 }
+
+ul, li{
+    padding: 5px;
+    margin-left: 2px;
+    list-style: none;
+}
+
+.check{
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+
+.done{
+    border-color: green;
+    color: green;
+}
+
+.notdone{
+    border-color: red;
+    color: red;
+}
+
